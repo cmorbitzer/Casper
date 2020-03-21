@@ -1,3 +1,12 @@
+**NOTE**: This is a fork of Casper with the Ghost-Disqus comment code added in.
+Before installing it, add the following code to the Site Header portion of the Code injection section of the Ghost admin.
+
+```html
+<script>
+    var disqus_shortname = '<DISQUS SHORTNAME>';
+</script>
+```
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
